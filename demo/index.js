@@ -1,3 +1,3 @@
 document.body.onclick = function(){
-    alt
+    alert(1)
 }
