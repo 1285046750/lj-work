@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ATM计算机</title>
+</head>
+<body>
+    <script>
+     var zhanghao='123456789';
+           var mima1='123456';
+           var money='1000000';
+           var zhanghao=Number(prompt('请您输入银行卡号'));
+           var mima=Number(prompt('请您输入密码'));
+          
+           if(bank=zhanghao||mima==mima1){
+           	   alert('密码正确');
+                 do{
+                 	 var a=Number(prompt("请您输入要取的金额"));
+                 	  if (a<=money){
+                	   alert('您的余额是'+(money-a));
+                	  }else{
+                	     	alert('您的余额不足');
+                	   }
+                	  break
+                  }while(true)
+            }else{
+           	alert('密码错误,请重新输入');
+           }
+          </script>
+</body>
+</html>
+		
